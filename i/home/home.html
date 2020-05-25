@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实习计划</title>
+    <style>
+        #content{ 
+            width: 100%; 
+        }
+        #top {
+            background-image:url("/img/1.jpg");
+        }
+        #left {
+            background-color:burlywood;
+            width: 30%;
+            float: left;
+        }
+        #main {
+            background-color:darkorange;
+            width: 70%;
+            float: left;
+        } 
+        #footer {
+            background-color:greenyellow;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="content" style=" text-align:center;" >
+        <div id="top">
+            <h1></h1>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+        </div>
+        <div id="left" style=" text-align:center;">
+            <h1>登录</h1>
+            <br/><br/>
+            
+            姓名： <input type="text" id="uname"/>
+            <br/><br/>
+            
+            密码：<input type="text" id="pname"/>
+            <br/><br/>
+            
+            <input type="button" value="登录" onclick="javascript:check();"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="register.html" target="_self">注册</a> 
+            <output id="info" name="info"></output>
+            <script>
+                function check(){
+                    var uname = document.getElementById("uname").value;
+                    var name = document.getElementById("pname").value;
+                    if(uname ==""){
+                        document.getElementsByName("info")[0].value="用户名不能为空";
+                        document.getElementsByName("uname")[0].innerHTML="";
+                    }
+                    
+                    if(pname ==""){
+                        document.getElementsByName("info")[0].value="密码不能为空";
+                        document.getElementsByName("pname")[0].innerHTML="";
+                    }
+                }
+            </script>
+            <br/><br/><br/><br/><br/><br/><br/>
+        </div>
+        <div id="main" style=" text-align:center;">
+            <h1>菜单</h1>
+            <br/><br/><br/><br/>
+            
+                <a href="hyc.html" target="_self">快速写简历！！</a> 
+                <br/><br/>
+                    <a href="eg.html" target="_self">简历模板</a> 
+            <br/><br/><br/><br/><br/><br/><br/><br/>
+        </div>
+        <div id="footer" style=" text-align:center;">
+            <h1>推介</h1>
+            <br/><br/><br/><br/>
+            <a href="eg.html" target="_self">公司推介</a> 
+            <br/><br/>
+                <a href="job.html" target="_self"></a>    <a href="job.html" target="_self">招聘网推介</a> 
+                <br/><br/>
+                    
+            <br/><br/><br/><br/><br/><br/></div>
+    </div>
+</body>
+</html>
