@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            text-align: center;
+            margin: 0 auto;
+            font-size: 18px;
+            font-family: "宋体";
+            width: 980px;
+            border: 1px solid #666;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .first {
+            width: 120px;
+        }
+
+        .second {
+            width: 50px;
+        }
+
+        .sex {
+            width: 10px;
+            vertical-align: middle;
+        }
+
+        .photo {
+            width: 100px;
+            text-align: center;
+        }
+
+        select .nian {
+            width: 50px;
+        }
+
+        td {
+            height: 30px;
+            line-height: 30px;
+            border: 1px solid #666;
+        }
+
+        input {
+            width: 100%;
+            height: 100%;
+            outline: none;
+            padding-left: 10px;
+            box-sizing: border-box;
+            border: none;
+        }
+
+        textarea {
+            width: 100%;
+            overflow: auto;
+            resize: none;
+            outline: none;
+            border: none;
+        }
+
+        .box {
+            width: 980px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        button {
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+            margin: 0 auto;
+            background-color: gray;
+            outline: none;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function printpage() {
+            window.print();
+        }
+    </script>
+</head>
+
+<body>
+    <form action="http://baidu.com">
+        <table cellspacing="0">
+            <h1>个人简历</h1>
+            <tr>
+                <td class="first">姓名：</td>
+                <td><input type="text" placeholder="请输入姓名" required></td>
+                <td>性别：</td>
+                <td>
+                    <input type="radio" name="sex" checked class="sex">男
+                    <input type="radio" name="sex" class="sex">女
+                </td>
+                <td>出生年月：</td>
+                <td>
+                    <select class="nian">
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                    </select>
+                    年
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="11">4</option>
+                        <option value="12">5</option>
+                    </select>
+                    月
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                    </select>
+                    日
+                </td>
+                <td rowspan="4"><input type="text" value="照  片" readonly class="photo"></td>
+            </tr>
+
+            <tr>
+                <td class="first">政治面貌：</td>
+                <td><input type="text"></td>
+                <td>名族：</td>
+                <td><input type="text"></td>
+                <td>培养方式：</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td class="first">专业名称：</td>
+                <td><input type="text"></td>
+                <td>学历：</td>
+                <td>
+                    <select>
+                        <option value="本科">本科</option>
+                        <option value="专科">专科</option>
+                        <option value="硕士">硕士</option>
+                        <option value="博士">博士</option>
+                    </select>
+                </td>
+                <td>学制：</td>
+                <td><input type="text" maxlength="1"></td>
+            </tr>
+
+            <tr>
+                <td class="first">毕业时间：</td>
+                <td><input type="text"></td>
+                <td>籍贯：</td>
+                <td><input type="text"></td>
+                <td>身体状况：</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td class="first">英语水平：</td>
+                <td colspan="3"><input type="text"></td>
+                <td>计算机水平：</td>
+                <td colspan="2"><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td class="first">电子邮箱：</td>
+                <td colspan="3"><input type="email"></td>
+                <td>联系电话：</td>
+                <td colspan="2" <input type="tel"></td>
+            </tr>
+
+            <tr>
+                <td class="first">通讯地址：</td>
+                <td colspan="6"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="first">求职意向：</td>
+                <td colspan="6"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="first">工作经历：</td>
+                <td colspan="6"><textarea cols="6" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td class="first">获奖情况：</td>
+                <td colspan="6"><textarea cols="6" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td class="first">自我评价：</td>
+                <td colspan="6"><textarea cols="6" rows="10"></textarea></td>
+            </tr>
+        </table>
+        <div class="box">
+
+            <button type="submit" value="提交">提交</button>
+            <button value="打印" onClick="printpage()">打印</button>
+        </div>
+    </form>
+</body>
+
+</html>
