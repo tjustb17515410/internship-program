@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<p>实习视频与介绍</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style=" display:block; width:98%;"><p style="text-align: left"><object id="myPlayer" height="375" width="440" classid="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6"> 
+<param value="" name="URL" /> 
+<param value="1" name="rate" /> 
+<param value="0" name="balance" /> 
+<param value="" name="defaultFrame" /> 
+<param value="1" name="playCount" /> 
+<param value="0" name="autoStart" /> 
+<param value="0" name="currentMarker" /> 
+<param value="-1" name="invokeURLs" /> 
+<param value="" name="baseURL" /> 
+<param value="50" name="volume" /> 
+<param value="0" name="mute" /> 
+<param value="1" name="stretchToFit" /> 
+<param value="0" name="windowlessVideo" /> 
+<param value="-1" name="enabled" /> 
+<param value="-1" name="enableContextMenu" /> 
+<param value="0" name="fullScreen" /> 
+<param value="https://www.so.com/link?m=afdiKXhFityN0%2FpKdZ2sQjCBLOCVLsnI68%2FDERjM9GYe%2FnZiqocgCKhvQ3SMWJ2mUkY4%2BOBM2LUY%2BKn8hhOjXggXB0vD9nCXYPZ7n2%2Fa2CUPksDn5UPHLAchaivUvcqUtiyzlz5K0bPoVJ%2Fk9aQBFIAh2bR%2Fd3VXs7J0QW%2FvRL1Xj%2FSZfWUxn6BXPJ5Sdg0WYhU15GA%3D%3D" name="SAMIStyle" /> 
+<param value="https://www.so.com/link?m=aCLWRCA6gaUsrxrRS4ecb7zZF0Mxs8q3iIFS2PO23IbocWeZn%2BmjAO3gMMJEpVeCE7TDuGUJ%2F7r8%2BwwyspKLL0zWtkL8h%2BIyij3Z6FI%2F2wIY8iMLPltQ88%2BZq8yASFpZjsBAdVUA%2BCx9W9%2FMja1IEWl0acJ%2FYAc5MTHYXEDxpDlJe150%2Bl5xDzImAnowsMGONJyhZVA%3D%3D" name="SAMILang" /> 
+<param value="https://www.so.com/link?m=atj4bSOb5EEjgKNbO8MH3ew%2BVGVE30UIHDzfSmDlOO5DrFmYgkXS%2FHw0pljjTrukHVEVSSVAiV3jcYFIBzlr%2F7ZUuSBW0DlUqnZFDRywPL7O1RTHvKZF4n9QFF29AtZQx7m78zUIidV4HWgJyr9b3vrpSWJ206dg0hQ3T%2F4GD6e%2BRlFcdO%2B9Rqg%3D%3D" name="SAMIFilename" /> 
+<param value="https://www.so.com/link?m=awEdZwp6Lihcufc%2FzQTWYdWQi4ylPVHnkKeZbFHR8Dnn7avWoWkqDVUYWaPST5GpHUbEVFsFdDeCQD6rvA8JS0M4xuma5S9GE1f2moEJxwLTd9irD2%2FlRjtKcXzOl0R%2FoAqN4vg%2B0G1vbT43oTJ4tO0NuUw7fkjN3SSxXL8Ny%2BLE3Q35mXBhA92%2FEnZSjaclywC5aGA%3D%3D" name="captioningID" /></object></p> </div> 
+</div>
+    <p><video src="vedio\vedio.avi" controls ></video></p>
+    <p><video src="vedio\vedio.mp4" controls ></video></p>
+    <p><video src="vedio\vedio.webm" controls ></video></p>
+    <embed src="背景音乐网址" autostart="true" loop="-1" controls="ControlPanel" width="0" height="0" >
+    <object align=middle class=OBJECT classid=CLSID:22d6f312-b0f6-11d0-94ab-0080c74c7e95 height=320 id=MediaPlayer width=356> 
+<param name="ShowStatusBar" value="-1"> 
+<param name="Filename" value="电影地址"> 
+<embed type=application/x-oleobject codebase=http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=5,1,52,701 flename=mp src=电影地址 width=356 height=320> 
+</embed>　 
+</object>
+
+    
+</body>
+</html>
