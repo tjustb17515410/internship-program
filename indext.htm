@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实习计划</title>
+    <!--<script type="text/javascript">
+        document.write("实习计划")
+    </script>-->
+    <link rel="stylesheet" href="/i/home/index.css">
+</head>
+<body>
+    <div id="topa" >
+        <div class="center">
+            <div class="topLeft">
+                <div class="center"> 
+                    <div class="ac" ><a href="1" style="color: ivory;">实习小技巧  </a></div>
+                    <div class="news"><a href="/i/b/aa.htm" style="color: ivory;">实习百科</a></div>
+                    <div class="jl"><a href="hyc.htm" style="color: ivory;">简历</a></div>
+                    <div class="c"><a href="1" style="color: ivory;">消息</a></div>
+                    <div class="d"><p><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                        登入</a></p> 
+               <div id="light" class="white_content">
+                   <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭本窗口</a>
+                        <h3>登入</h3>
+                    <br/><br/>
+                    <div id="d">
+                    姓名： <input type="text" id="uname"/>
+                    <br/><br/> 
+                    
+                    密码： <input type="text" id="pname"/>
+                    <br/><br/>
+                    
+                    <input type="button" value="登录" onclick="javascript:check();"/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="register.html" target="_self">注册</a> 
+                    <output id="info" name="info"></output>
+                    <script>
+                        function check(){
+                            var uname = document.getElementById("uname").value;
+                            var name = document.getElementById("pname").value;
+                            if(uname ==""){
+                                document.getElementsByName("info")[0].value="用户名不能为空";
+                                document.getElementsByName("uname")[0].innerHTML="";
+                            }
+                            
+                            if(pname ==""){
+                                document.getElementsByName("info")[0].value="密码不能为空";
+                                document.getElementsByName("pname")[0].innerHTML="";
+                            }
+                        }
+                    </script></div>
+                    </div> 
+                  <div id="fade" class="black_overlay"></div> </div>
+                    <div class="z"><a href="register.html" style="color: ivory;">注册</a></div>
+                        <div id="manu" >
+                    <ul><!--第一个菜单-->
+                        <li>
+                            <a href="1">实习小技巧</a><span class="count">20</span>
+                            <ul>
+                                <li>
+                                    <a href="1">话术小技巧</a><span class="count">10</span>
+                                </li>
+                                <li>
+                                    <a href="1">行为小技巧</a><span class="count">7</span>
+                                </li>
+                                <li>
+                                    <a href="1">服装小技巧</a><span class="count">3</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                     <ul><!--第二个菜单-->
+                        <li>
+                            <a href="1">实习小技巧</a><span class="count">20</span>
+                            <ul>
+                                <li>
+                                    <a href="1">话术小技巧</a><span class="count">10</span>
+                                </li>
+                                <li>
+                                    <a href="1">行为小技巧</a><span class="count">7</span>
+                                </li>
+                                <li>
+                                    <a href="1">服装小技巧</a><span class="count">3</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
